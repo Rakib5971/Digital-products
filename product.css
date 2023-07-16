@@ -1,5 +1,120 @@
-.hello{
-color:blue
+*{
+margin:0px;
+padding:0px;
 
+
+}
+.menu-container{
+background-color:rgb(49, 49, 49);
+padding:20px;
+color:white;
+list-style:none ;
+display:flex;
+align-items:center ;
+justify-content:space-around ;
+
+}
+.menus{
+display:flex;
+
+
+}
+.item{
+    margin:10px 10px 10px 10px ;
+    cursor:pointer ;
+    font-size: 18px;
+    padding-right:10px;
+}
+.item:hover{
+    color:blue;
+}
+.logo-photo{
+    width:150px ;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(17, 17, 17);
+    color:white;
+    height:100vh ;
+    align-items: center ;
+    background-size:cover ;
+   
+}
+.img{
+width:400px ;
+
+}
+.title{
+font-size: 60px;
+font-weight: bold ;
+padding: 10px 10px 10px 10px;
+
+}
+.description{
+margin-top:15px ;
+margin-bottom: 15px ;
+padding:10px 10px 10px 10px;
+
+}
+.button{
+    padding:10px 20px;
+    background-color:rgb(245, 4, 4) ;
+    border-radius:5px ;
+    color:white;
+    cursor:pointer ;
+}
+.button:hover{
+    color:blue;
+}
+.about-img img{
+height: 400px ;
+
+
+}
+.about-container{
+    display:flex ;
+    justify-content: space-around;
+    align-items:center ;
+    flex-direction: row-reverse;
+}
+
+.we{
+font-size:35px ;
+padding: 10px 10px 10px 10px ; 
+
+
+}
+.Lorem{
+padding:10px 10px 10px 10px;
+
+
+}
+.btn{
+background-color: red;
+color:white;
+padding:10px 20px;
+border-radius: 5px ;
+
+
+}
+
+.box{
+height:250px;
+width:220px;
+box-shadow: 4px 4px 15px gray ;
+padding: 20px 20px 20px 20px;
+background-color: black;
+color:white;
+}
+
+.title{
+text-align: center;
+padding:10px 10px 10px 10px;
+
+}
+.box-image1{
+width:100px ;
+padding:20px;
 
 }
